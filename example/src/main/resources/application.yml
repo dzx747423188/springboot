@@ -1,0 +1,11 @@
+#数据库配置信息
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/park?characterEncoding=utf-8
+    data-password: root
+    data-username: root
+    driver-class-name: com.mysql.jdbc.Driver
+#mapper配置信息
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.springboot.example.models
